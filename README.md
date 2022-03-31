@@ -108,19 +108,30 @@ e vai retornar a classe , os outros metodos retornam o valor para a apresentaç�
   <b>retorna =  id_obj.tipo_jogo()</b> - <i>Retorna o id de identificação do tipo de jogo</i>
   
 <b>retorna =  id_obj.concurso()</b> - <i>Retorna o numero do concurso</i>
+
 <b>retorna =  id_obj.Municipio_Sorteio()</b> - <i>Retorna o município de realização do concurso</i>
+
 <b>retorna =  id_obj.DataApuracao()</b> - <i>Retorna a data do concurso</i>
 
 <b>retorna =  id_obj.ValorArrecadado()</b> - <i>Retorna o valor arrecadado até o concurso</i>
+
 <b>retorna =  id_obj.ValorEstimadoProximoConcurso()</b> - <i>Retorna o valor estimado para o proximo concurso</i>
+
 <b>retorna =  id_obj.ValorAcumuladoProximoConcurso()</b> - <i>Retorna o valor acumulado para o próximo concurso</i>
+
 <b>retorna =  id_obj.ValorAcumuladoConcursoEspecial()</b> - <i>Retorna o valor acumulado para o concurso especial</i>
 
 <b>retorna =  id_obj.ValorAcumuladoConcurso_0_5</b> - <i> Retorna o valor acumulado de concurso - a 5</i>
+
 <b>retorna =  id_obj.Acumulado</b> - <i>Retorna valor booleano se acumulou ou no caso nao houve vencedor</i>
+
 <b>retorna =  id_obj.IndicadorConcursoEspecial</b> - <i> Retorna o indicador de concurso especial</i>
+
 <b>retorna =  id_obj.DezenasSorteadasOrdemSorteio</b> - <i>Retorna as Dezenas sorteadas em formato de lista</i>
+
 <b>retorna =  id_obj.ListaMunicipioUFGanhadores</b> - <i>Retorna os municipios ganhadores em formato de lista</i>
+
 <b>retorna =  id_obj.ListaRateioPremio</b> - <i>Retorna uma lista com os dados de numero de acertos, numero,
+
 numero de ganhadores, valor do premio unitario e a descricao</i>
 
