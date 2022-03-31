@@ -1,11 +1,13 @@
 # Python-Loteria
- Projeto python com classe e programa para pegar numeros de jogos
+
+<h1> Projeto python com classe e programa para pegar numeros de jogos</h1>
 
 Primeiro projeto de meu repositório criado dia 31-02-2022 que consiste
 em uma classe que possibilita a extração de dados relativos aos jogos
 legalizados no Brasil.
 
-Essa classe consegue pegar dados dos sorteios das loterias:
+<b>Essa classe consegue pegar dados dos sorteios das loterias:
+
 - MEGA SENA
 - LOTO FÁCIL
 - QUINA
@@ -15,12 +17,15 @@ Essa classe consegue pegar dados dos sorteios das loterias:
 - DIA DE SORTE
 - SUPER SETE
 
-caixa.py
-O arquivo caixa.py contem a classe Loterias com metodos que irão capturar
+<b><i>caixa.py</i></b>
+
+<p>O arquivo caixa.py contem a classe Loterias com metodos que irão capturar
 os dados dos jogos citados acima de forma simples
+</p>
 
-Classes utilizadas
+<h2>Classes utilizadas</h2>
 
+<i> Codigo</i>
 import requests
 - Requisição de conexão com o site específico
 
@@ -30,7 +35,7 @@ from bs4 import BeautifulSoup
 import json
 - Normalização dos dados
 
-Quais dados serão extraidos
+<b>Quais dados serão extraidos</b>
 
 - Tipo de Jogo
 
@@ -58,18 +63,18 @@ Quais dados serão extraidos
 
 - lista de rateio de prêmios
 
-Como funciona:
+<b>Como funciona</b>:
 
 Primeiro importe a classe para ser usada no projeto
 
-codigo:
+<i>codigo:</i>
 
 from caixa import Loterias
 
 
 depois vamos criar uma instancia da classe
 
-codigo:
+<i>codigo:</i>
 
 id_obj = Loterias(tipo)
 
@@ -83,7 +88,7 @@ Parametro tipo:
 "dia-de-sorte"
 "super-sete"
 
-Exemplo:
+<i>Exemplo:</i>
 
         id_obj = Loterias("mega-sena") - Metodo construtor que receberá o tipo de loteria que será trabalhada
 
