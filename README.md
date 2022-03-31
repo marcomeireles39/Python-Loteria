@@ -1,6 +1,6 @@
 # Python-Loteria
 
-<h1> Projeto python com classe e programa para pegar numeros de jogos</h1>
+<h2> Projeto python com classe e programa para pegar numeros de jogos</h2>
 
 Primeiro projeto de meu repositório criado dia 31-02-2022 que consiste
 em uma classe que possibilita a extração de dados relativos aos jogos
@@ -105,33 +105,33 @@ Parametro tipo:
 <p>O metodo buscar é um dos mais importantas pois é ele que vai acessar todos os dados do jogo especifico
 e vai retornar a classe , os outros metodos retornam o valor para a apresentação , são eles:</p>
 
-  <b>retorna =  id_obj.tipo_jogo()</b> - <i>Retorna o id de identificação do tipo de jogo</i>
+retorna =  id_obj.tipo_jogo() - <i>Retorna o id de identificação do tipo de jogo</i>
   
-<b>retorna =  id_obj.concurso()</b> - <i>Retorna o numero do concurso</i>
+retorna =  id_obj.concurso() - <i>Retorna o numero do concurso</i>
 
-<b>retorna =  id_obj.Municipio_Sorteio()</b> - <i>Retorna o município de realização do concurso</i>
+retorna =  id_obj.Municipio_Sorteio() - <i>Retorna o município de realização do concurso</i>
 
-<b>retorna =  id_obj.DataApuracao()</b> - <i>Retorna a data do concurso</i>
+retorna =  id_obj.DataApuracao() - <i>Retorna a data do concurso</i>
 
-<b>retorna =  id_obj.ValorArrecadado()</b> - <i>Retorna o valor arrecadado até o concurso</i>
+retorna =  id_obj.ValorArrecadado() - <i>Retorna o valor arrecadado até o concurso</i>
 
-<b>retorna =  id_obj.ValorEstimadoProximoConcurso()</b> - <i>Retorna o valor estimado para o proximo concurso</i>
+retorna =  id_obj.ValorEstimadoProximoConcurso() - <i>Retorna o valor estimado para o proximo concurso</i>
 
-<b>retorna =  id_obj.ValorAcumuladoProximoConcurso()</b> - <i>Retorna o valor acumulado para o próximo concurso</i>
+retorna =  id_obj.ValorAcumuladoProximoConcurso() - <i>Retorna o valor acumulado para o próximo concurso</i>
 
-<b>retorna =  id_obj.ValorAcumuladoConcursoEspecial()</b> - <i>Retorna o valor acumulado para o concurso especial</i>
+retorna =  id_obj.ValorAcumuladoConcursoEspecial() - <i>Retorna o valor acumulado para o concurso especial</i>
 
-<b>retorna =  id_obj.ValorAcumuladoConcurso_0_5</b> - <i> Retorna o valor acumulado de concurso - a 5</i>
+retorna =  id_obj.ValorAcumuladoConcurso_0_5 - <i> Retorna o valor acumulado de concurso - a 5</i>
 
-<b>retorna =  id_obj.Acumulado</b> - <i>Retorna valor booleano se acumulou ou no caso nao houve vencedor</i>
+retorna =  id_obj.Acumulado - <i>Retorna valor booleano se acumulou ou no caso nao houve vencedor</i>
 
-<b>retorna =  id_obj.IndicadorConcursoEspecial</b> - <i> Retorna o indicador de concurso especial</i>
+retorna =  id_obj.IndicadorConcursoEspecial - <i> Retorna o indicador de concurso especial</i>
 
-<b>retorna =  id_obj.DezenasSorteadasOrdemSorteio</b> - <i>Retorna as Dezenas sorteadas em formato de lista</i>
+retorna =  id_obj.DezenasSorteadasOrdemSorteio - <i>Retorna as Dezenas sorteadas em formato de lista</i>
 
-<b>retorna =  id_obj.ListaMunicipioUFGanhadores</b> - <i>Retorna os municipios ganhadores em formato de lista</i>
+retorna =  id_obj.ListaMunicipioUFGanhadores - <i>Retorna os municipios ganhadores em formato de lista</i>
 
-<b>retorna =  id_obj.ListaRateioPremio</b> - <i>Retorna uma lista com os dados de numero de acertos, numero,
+retorna =  id_obj.ListaRateioPremio - <i>Retorna uma lista com os dados de numero de acertos, numero,
 
 numero de ganhadores, valor do premio unitario e a descricao</i>
 
