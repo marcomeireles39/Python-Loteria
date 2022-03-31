@@ -121,17 +121,16 @@ e vai retornar a classe , os outros metodos retornam o valor para a apresenta√ß√
 
     retorna =  id_obj.ValorAcumuladoConcursoEspecial() - <i>Retorna o valor acumulado para o concurso especial</i>
 
-    retorna =  id_obj.ValorAcumuladoConcurso_0_5 - <i> Retorna o valor acumulado de concurso - a 5</i>
+    retorna =  id_obj.ValorAcumuladoConcurso_0_5() - <i> Retorna o valor acumulado de concurso - a 5</i>
 
-    retorna =  id_obj.Acumulado - <i>Retorna valor booleano se acumulou ou no caso nao houve vencedor</i>
+    retorna =  id_obj.Acumulado() - <i>Retorna valor booleano se acumulou ou no caso nao houve vencedor</i>
 
-    retorna =  id_obj.IndicadorConcursoEspecial - <i> Retorna o indicador de concurso especial</i>
+    retorna =  id_obj.IndicadorConcursoEspecial() - <i> Retorna o indicador de concurso especial</i>
 
-    retorna =  id_obj.DezenasSorteadasOrdemSorteio - <i>Retorna as Dezenas sorteadas em formato de lista</i>
+    retorna =  id_obj.DezenasSorteadasOrdemSorteio() - <i>Retorna as Dezenas sorteadas em formato de lista</i>
 
-    retorna =  id_obj.ListaMunicipioUFGanhadores - <i>Retorna os municipios ganhadores em formato de lista</i>
+    retorna =  id_obj.ListaMunicipioUFGanhadores() - <i>Retorna os municipios ganhadores em formato de lista</i>
 
-    retorna =  id_obj.ListaRateioPremio - <i>Retorna uma lista com os dados de numero de acertos, numero,
+    retorna =  id_obj.ListaRateioPremio() - <i>Retorna uma lista com os dados de numero de acertos, numero,
 
     numero de ganhadores, valor do premio unitario e a descricao</i>
-
