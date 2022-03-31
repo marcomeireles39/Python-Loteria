@@ -57,3 +57,39 @@ Quais dados serão extraidos
 - lista de municípios ganhadores
 
 - lista de rateio de prêmios
+
+Como funciona:
+
+Primeiro importe a classe para ser usada no projeto
+
+codigo:
+
+from caixa import Loterias
+
+
+depois vamos criar uma instancia da classe
+
+codigo:
+
+id_obj = Loterias(tipo)
+
+Parametro tipo:
+"mega-sena"
+"loto-facil"
+"quina"
+"loto-mania"
+"time-mania"
+"dupla-sena"
+"dia-de-sorte"
+"super-sete"
+
+Exemplo:
+
+        id_obj = Loterias("mega-sena") - Metodo construtor que receberá o tipo de loteria que será trabalhada
+
+<h3>Lista de metodos para acesso:</h3>
+
+
+
+
+
